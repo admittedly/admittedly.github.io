@@ -1,5 +1,5 @@
 $(function(){
-	$.get("/touch?" + new Date().getTime(),)
+	$.get("/touch?" + new Date().getTime())
 	.done(function(resp){
 		//If more than 10 minutes old
 		if(!parseInt(resp)){
